@@ -174,10 +174,10 @@ try:
         try:
             
             start_time = time.perf_counter()
-
-            # generate_products()
-            # generate_orders()
-            # generate_order_items()
+            geterate_customer()
+            generate_products()
+            generate_orders()
+            generate_order_items()
             updated_orders_items()
 
             mydb.commit()
